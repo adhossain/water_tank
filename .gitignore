@@ -1,0 +1,23 @@
+# Build output
+.build/
+dist/
+build/
+*.bin
+*.elf
+*.map
+*.o
+*.d
+.espressif/
+__pycache__/
+*.pyc
+.vscode/
+
+# Secrets - never commit
+.env
+uuid_auth_key.xlsx
+
+# Local-only files
+hardware/
+backup.zip
+compile command.txt
+CLAUDE_CODE_HANDOVER.md
